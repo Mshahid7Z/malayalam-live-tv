@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Malayalam Live TV</string>
-    <string name="brand_top">Malayalam Live</string>
-    <string name="brand_bottom">TV</string>
+    <string name="app_name">Thira</string>
+    <string name="brand_top">Thira</string>
+    <string name="brand_bottom">MALAYALAM LIVE</string>
     <string name="loading">Loading channels…</string>
     <string name="channel_count">%1$d channels</string>
     <plurals name="channels">
@@ -43,7 +43,7 @@
     <string name="downloading">Downloading… %1$d%%</string>
     <string name="update_failed">Update failed: %1$s</string>
     <string name="allow_install_title">Allow updates</string>
-    <string name="allow_install_message">To install updates, turn on "Install unknown apps" for Malayalam Live TV, then choose the update again.</string>
+    <string name="allow_install_message">To install updates, turn on "Install unknown apps" for Thira, then choose the update again.</string>
     <string name="open_settings">Open settings</string>
-    <string name="allow_install_manual">Go to Settings → My Fire TV → Developer options → Install unknown apps and turn on Malayalam Live TV.</string>
+    <string name="allow_install_manual">Go to Settings → My Fire TV → Developer options → Install unknown apps and turn on Thira.</string>
 </resources>
