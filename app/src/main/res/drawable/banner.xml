@@ -1,9 +1,56 @@
-<!-- 320x180 TV home-screen banner. -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 320x180 TV home-screen banner: Thira mark on a glass tile plus the wordmark drawn as strokes.
+     Solid colours only (vector gradients need API 24+; Fire OS 5 is API 22). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="320dp" android:height="180dp"
-    android:viewportWidth="320" android:viewportHeight="180">
-    <path android:fillColor="#FF0E1116" android:pathData="M0,0h320v180h-320z" />
-    <path android:fillColor="#FF1FA35C" android:pathData="M0,150h320v30h-320z" />
-    <path android:fillColor="#FFFFFFFF"
-        android:pathData="M110,40h100a8,8 0,0 1,8 8v62a8,8 0,0 1,-8 8h-100a8,8 0,0 1,-8 -8v-62a8,8 0,0 1,8 -8zM148,60v38l32,-19z" />
+    android:width="320dp"
+    android:height="180dp"
+    android:viewportWidth="320"
+    android:viewportHeight="180">
+    <path
+        android:fillColor="#FF121317"
+        android:pathData="M0,0H320V180H0Z" />
+    <path
+        android:fillColor="#0F5B8DEF"
+        android:pathData="M0,0H320V70Q160,100 0,70Z" />
+    <path
+        android:fillColor="#FF1B1E26"
+        android:pathData="M56,48H100A20,20 0 0 1 120,68V112A20,20 0 0 1 100,132H56A20,20 0 0 1 36,112V68A20,20 0 0 1 56,48Z" />
+    <path
+        android:fillColor="#14FFFFFF"
+        android:pathData="M56,48H100A20,20 0 0 1 120,68V76Q78,90 36,76V68A20,20 0 0 1 56,48Z" />
+    <group
+        android:translateX="29.4"
+        android:translateY="41.4"
+        android:pivotX="0"
+        android:pivotY="0"
+        android:scaleX="0.9"
+        android:scaleY="0.9">
+        <path
+            android:fillColor="#FF5B8DEF"
+            android:pathData="M40,32Q40,26 45.23,28.94L66.77,41.06Q72,44 66.77,46.94L45.23,59.06Q40,62 40,56Z" />
+        <path
+            android:pathData="M34,72C40,66 47,78 54,72S68,66 74,72"
+            android:strokeColor="#FF7A74F2"
+            android:strokeLineCap="round"
+            android:strokeWidth="4" />
+        <path
+            android:pathData="M34,82C40,76 47,88 54,82S68,76 74,82"
+            android:strokeColor="#998B5CF6"
+            android:strokeLineCap="round"
+            android:strokeWidth="4" />
+    </group>
+    <group
+        android:translateX="142"
+        android:translateY="14.5"
+        android:pivotX="0"
+        android:pivotY="0"
+        android:scaleX="0.85"
+        android:scaleY="0.85">
+        <path
+            android:pathData="M14,58V98Q14,110 26,110M4,80H26M46,56V110M46,92Q46,80 58,80Q70,80 70,92V110M88,80V110M88,62L88,62.1M106,80V110M106,94Q106,80 120,80M162,95A14,14 0 1 0 134,95A14,14 0 1 0 162,95ZM162,80V110"
+            android:strokeColor="#FFF5F6F8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="6" />
+    </group>
 </vector>

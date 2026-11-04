@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- App backdrop: charcoal diagonal gradient with a faint blue wash at the top. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="315"
+                android:centerColor="@color/backdrop_mid"
+                android:endColor="@color/backdrop_end"
+                android:startColor="@color/backdrop_start" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:endColor="#005B8DEF"
+                android:startColor="@color/backdrop_wash" />
+        </shape>
+    </item>
+</layer-list>

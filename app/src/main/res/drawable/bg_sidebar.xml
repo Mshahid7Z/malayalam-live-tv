@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sidebar: near-opaque glass panel, top-lit. Kept opaque enough for text contrast. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:endColor="@color/sidebar_bottom"
+        android:startColor="@color/sidebar_top" />
+</shape>
